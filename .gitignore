@@ -1,0 +1,5 @@
+# Python virtual environment
+venv/
+
+# Large raw data files 
+raw_data/
