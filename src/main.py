@@ -27,7 +27,7 @@ if __name__ == "__main__":
             print(f"\nProcessing file: {file_path}")
 
             # Extract: Reads the GeoJSON file, converts the Path object to a string for geopandas
-            gdf = gpd.read_file(str(file_path))
+            gdf = gpd.read_file(str(file_path), engine='fiona') #Force using Fiona as the engine
 
             # Transform: Uses external cleaning module
             cleaned_gdf = clean_data(gdf, table_name)
