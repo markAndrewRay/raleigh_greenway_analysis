@@ -135,6 +135,7 @@ dependencies:
   - lmdb=0.9.31
   - lz4-c=1.10.0
   - lzo=2.10
+  - matplotlib>=3.8
   - minizip=4.0.10
   - muparser=2.3.5
   - ncurses=6.5
@@ -163,6 +164,7 @@ dependencies:
   - spdlog=1.16.0
   - sqlalchemy=2.0.43
   - sqlite=3.51.0
+  - tabulate
   - tiledb=2.29.2
   - tk=8.6.15
   - typing-extensions=4.15.0
